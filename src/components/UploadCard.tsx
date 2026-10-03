@@ -50,7 +50,7 @@ export default function UploadCard({
     uploadFile(acceptedFiles[0]);
   };
 
-  const { getRootProps, getInputProps, isDragActive, open } = useDropzone({
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop,
     accept: ACCEPT,
     maxFiles: 1,

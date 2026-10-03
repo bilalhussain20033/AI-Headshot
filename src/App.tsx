@@ -1,13 +1,4 @@
-import { useState } from "react";
-import { AdvancedImage, placeholder, lazyload } from "@cloudinary/react";
-import { fill } from "@cloudinary/url-gen/actions/resize";
-import { format, quality } from "@cloudinary/url-gen/actions/delivery";
-import { auto } from "@cloudinary/url-gen/qualifiers/format";
-import { auto as autoQuality } from "@cloudinary/url-gen/qualifiers/quality";
-import { autoGravity } from "@cloudinary/url-gen/qualifiers/gravity";
-import { cld, uploadPreset } from "./cloudinary/config";
-import { UploadWidget } from "./cloudinary/UploadWidget";
-import type { CloudinaryUploadResult } from "./cloudinary/UploadWidget";
+
 import Home from "./pages/Home";
 
 // const hasUploadPreset = Boolean(uploadPreset);
